@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Calculator.css">
+    <link rel="icon" href="./ViratKohli2.jpg">
+</head>
+<body>
+    <form name="calcForm">
+        <caption><B>@JSP CALCULATOR</B></caption>
+        <div id="displaybg">
+            <input type="text" id="display" name="answer">
+        </div>
+            <input class="btn" type="button"value="1" onclick="calcForm.answer.value+='1'">
+            <input class="btn" type="button"value="2" onclick="calcForm.answer.value+='2'">
+            <input class="btn" type="button"value="3" onclick="calcForm.answer.value+='3'">
+            <input class="btn" type="button"value="+" onclick="calcForm.answer.value+='+'">
+        
+            <input class="btn" type="button"value="4" onclick="calcForm.answer.value+='4'">
+            <input class="btn" type="button"value="5" onclick="calcForm.answer.value+='5'">
+            <input class="btn" type="button"value="6" onclick="calcForm.answer.value+='6'">
+            <input class="btn" type="button"value="-" onclick="calcForm.answer.value+='-'">
+        
+            <input class="btn" type="button"value="7" onclick="calcForm.answer.value+='7'">
+            <input class="btn" type="button"value="8" onclick="calcForm.answer.value+='8'">
+            <input class="btn" type="button"value="9" onclick="calcForm.answer.value+='9'">
+            <input class="btn" type="button"value="*" onclick="calcForm.answer.value+='*'">
+        
+            <input class="btn" type="button"value="0" onclick="calcForm.answer.value+='0'">
+            <input class="btn" type="button"value="/" onclick="calcForm.answer.value+='/'">
+            <input class="btn" type="button"value="." onclick="calcForm.answer.value+='.'">
+            <input class="btn" type="button"value="%" onclick="calcForm.answer.value+='%'">
+        
+        <input class="splbutton" type="button" value="clear" onclick="calcForm.answer.value=''">
+        <input class="splbutton" type="button" value="=" onclick="calcForm.answer.value=eval(calcForm.answer.value)">
+     </form>
+       
+</body>
+</html>
